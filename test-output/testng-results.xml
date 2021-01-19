@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49824" started-at="2021-01-17T12:02:49Z" finished-at="2021-01-17T12:03:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49824" started-at="2021-01-17T12:02:49Z" finished-at="2021-01-17T12:03:39Z">
+      <class name="com.actiTime.test.TC_002_CreateNewTask">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actiTime.test.TC_002_CreateNewTask@13a57a3b]" name="setUp" is-config="true" duration-ms="26475" started-at="2021-01-17T17:32:49Z" finished-at="2021-01-17T17:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewTask()[pri:0, instance:com.actiTime.test.TC_002_CreateNewTask@13a57a3b]" name="createNewTask" duration-ms="23329" started-at="2021-01-17T17:33:16Z" finished-at="2021-01-17T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.actiTime.test.TC_002_CreateNewTask@13a57a3b]" name="shutDown" is-config="true" duration-ms="1" started-at="2021-01-17T17:33:39Z" finished-at="2021-01-17T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.actiTime.test.TC_002_CreateNewTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

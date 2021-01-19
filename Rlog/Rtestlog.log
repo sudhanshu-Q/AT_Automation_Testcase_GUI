@@ -1,0 +1,983 @@
+2021-01-16 18:41:13,458 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:41:13,468 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:41:15,108 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 18:41:15,109 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 18:41:15,240 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:50:54,996 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:50:55,004 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:50:57,216 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 18:50:57,226 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 18:50:57,285 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:50:57,718 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 18:50:58,692 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:59:54,419 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:59:54,435 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:59:58,458 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 18:59:58,459 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 18:59:58,479 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 18:59:58,516 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 18:59:58,536 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 18:59:58,537 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 18:59:58,537 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the username
+2021-01-16 18:59:58,616 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 18:59:58,727 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 18:59:58,825 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:00:04,008 - com.actiTime.test.TC_001_LoginPageTest -INFO - false
+2021-01-16 19:00:04,010 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:00:05,179 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:01:53,296 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:01:53,304 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:01:55,192 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:01:55,192 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:01:55,215 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:01:55,270 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:01:55,286 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:01:55,286 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:01:55,286 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the username
+2021-01-16 19:01:55,410 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:01:55,512 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:01:55,611 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:01:59,688 - com.actiTime.test.TC_001_LoginPageTest -INFO - false
+2021-01-16 19:01:59,689 - com.actiTime.test.TC_001_LoginPageTest -ERROR - User is in Logged in state
+2021-01-16 19:01:59,693 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:02:00,712 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:03:55,350 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:03:55,362 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:03:56,665 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:03:56,666 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:03:56,698 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:03:56,807 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:03:56,815 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:03:56,815 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:03:56,816 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the username
+2021-01-16 19:03:56,898 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:03:57,009 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:03:57,106 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:03:57,112 - com.actiTime.test.TC_001_LoginPageTest -INFO - false
+2021-01-16 19:03:57,113 - com.actiTime.test.TC_001_LoginPageTest -ERROR - User is in Logged in state
+2021-01-16 19:03:57,122 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:03:57,125 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:03:58,029 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:06:18,528 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:06:18,547 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:06:20,222 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:06:20,233 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:06:20,288 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:06:20,367 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:06:20,377 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:06:20,378 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:06:20,379 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:06:20,473 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:06:20,588 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:06:20,678 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:06:20,685 - com.actiTime.test.TC_001_LoginPageTest -INFO - false
+2021-01-16 19:06:20,685 - com.actiTime.test.TC_001_LoginPageTest -ERROR - User is in Logged in state
+2021-01-16 19:06:20,693 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:06:20,695 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:06:21,546 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:22:13,886 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:22:13,915 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:22:14,589 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:22:14,589 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:22:14,620 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:22:14,767 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:22:14,767 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:22:14,767 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:22:14,783 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:22:14,901 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:22:15,036 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:22:16,834 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:22:16,837 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:22:17,709 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:23:40,450 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:23:40,462 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:23:41,929 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:23:41,929 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:23:41,991 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:23:42,079 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:23:42,079 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:23:42,079 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:23:42,079 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:23:42,181 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:23:42,291 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:23:42,712 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login FailureactiTIME - Login
+2021-01-16 19:23:42,718 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:23:42,720 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:23:43,592 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:26:07,202 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:26:07,211 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:26:08,372 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:26:08,373 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:26:08,393 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:26:08,455 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:26:08,455 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:26:08,455 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:26:08,455 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:26:08,607 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:26:08,735 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:26:08,834 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login FailureactiTIME - Login
+2021-01-16 19:26:08,839 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:26:08,841 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:26:09,790 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:29:51,073 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:29:51,083 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:29:52,891 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:29:52,892 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:29:52,914 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:29:52,946 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:29:52,962 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:29:52,962 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:29:52,962 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:29:53,059 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:29:53,178 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:29:53,277 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login FailureactiTIME - Login
+2021-01-16 19:29:57,281 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :
+2021-01-16 19:29:57,285 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:29:58,591 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:32:42,003 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:32:42,012 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:32:43,280 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:32:43,285 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:32:43,340 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:32:43,403 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:32:43,410 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:32:43,411 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:32:43,412 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:32:43,504 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:32:43,605 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:32:45,311 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:32:45,317 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:32:45,320 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:32:46,163 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:34:04,313 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:34:04,328 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:34:06,174 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:34:06,175 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:34:06,201 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:34:06,243 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:34:06,258 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:34:06,258 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:34:06,258 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:34:06,357 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:34:06,460 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:34:10,323 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:34:10,330 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:34:10,332 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:34:11,368 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:35:02,280 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:35:02,287 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:35:03,482 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:35:03,483 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:35:03,520 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:35:03,586 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:35:03,595 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:35:03,596 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:35:03,598 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:35:03,732 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:35:03,830 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:35:05,866 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 19:35:05,874 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:35:05,877 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:35:06,791 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:36:26,973 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:36:26,986 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:36:27,487 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:36:27,487 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:36:27,535 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:36:27,632 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:36:27,648 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:36:27,648 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:36:27,648 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:36:27,772 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:36:27,891 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:36:28,671 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.jsp***Logged in state***
+2021-01-16 19:36:28,678 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:36:28,679 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:36:29,469 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:38:48,325 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:38:48,338 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:38:49,122 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:38:49,123 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:38:49,151 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:38:49,201 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:38:49,217 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:38:49,217 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:38:49,217 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:38:49,321 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:38:49,452 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:38:50,420 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.jsp***Logged in state***
+2021-01-16 19:38:50,429 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:38:50,431 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:38:51,631 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:40:54,291 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:40:54,351 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:40:55,077 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:40:55,077 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:40:55,108 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:40:55,212 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:40:55,220 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:40:55,221 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:40:55,221 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:40:55,313 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:40:55,419 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:40:57,406 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 19:40:57,417 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:40:57,420 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:40:58,776 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:46:32,579 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:46:32,584 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:46:34,462 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:46:34,462 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:46:34,482 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:46:34,517 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:46:34,538 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:46:34,538 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:46:34,539 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:46:34,622 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:46:34,741 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:46:38,229 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:46:38,237 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:46:38,239 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:46:39,316 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:48:36,393 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:48:36,409 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:48:37,667 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:48:37,668 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:48:37,688 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:48:37,792 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:48:37,792 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:48:37,792 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:48:37,792 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:48:37,894 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:48:38,000 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:48:39,783 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:48:39,789 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:48:39,792 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:48:40,650 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:53:23,181 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:53:23,192 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:53:23,710 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:53:23,710 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:53:23,769 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:53:23,851 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:53:23,867 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:53:23,867 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:53:23,867 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:53:23,963 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:53:24,070 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:53:26,114 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:53:26,121 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:53:26,123 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:53:26,974 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:57:12,365 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:57:12,375 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:57:13,877 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:57:13,877 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:57:13,906 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:57:13,948 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:57:13,964 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:57:13,964 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:57:13,964 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:57:14,086 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:57:14,189 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:57:16,911 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:57:16,920 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:57:16,922 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:57:17,928 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:58:01,315 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:58:01,330 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:58:02,482 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:58:02,483 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:58:02,504 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:58:02,558 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:58:02,569 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:58:02,570 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:58:02,570 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:58:02,656 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:58:02,769 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:58:04,543 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track
+2021-01-16 19:58:04,552 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:58:04,554 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:58:05,443 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:16,064 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:16,071 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:17,010 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:59:17,010 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:59:17,073 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:17,170 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:59:17,181 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:59:17,182 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:59:17,184 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:59:17,320 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:59:17,433 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:59:19,717 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 19:59:19,725 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 19:59:19,727 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:59:20,580 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:54,549 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:54,554 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:55,009 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 19:59:55,009 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 19:59:55,072 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 19:59:55,159 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 19:59:55,167 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 19:59:55,167 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 19:59:55,168 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 19:59:55,292 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 19:59:55,397 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 19:59:56,413 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 19:59:56,421 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 19:59:56,423 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 19:59:57,338 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:01:20,550 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:01:20,554 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:01:21,245 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:01:21,245 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:01:21,279 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:01:21,329 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:01:21,345 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:01:21,345 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:01:21,345 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:01:21,526 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:01:21,638 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:01:21,975 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 20:01:21,984 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 20:01:21,986 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:01:22,803 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:02:52,539 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:02:52,545 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:02:53,230 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:02:53,230 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:02:53,285 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:02:53,389 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:02:53,389 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:02:53,389 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:02:53,389 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:02:53,508 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:02:53,617 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:02:56,649 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 20:02:56,660 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 20:02:56,662 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:02:57,581 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:15:30,307 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:15:30,320 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:15:31,308 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:15:31,316 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:15:31,365 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:15:31,454 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:15:31,460 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:15:31,460 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:15:31,460 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:15:31,560 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:15:31,685 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:15:33,998 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 20:15:34,006 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 20:15:34,013 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 20:15:34,015 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:15:34,944 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:16:48,576 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:16:48,583 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:16:49,553 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:16:49,553 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:16:49,591 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:16:49,693 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:16:49,702 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:16:49,705 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:16:49,722 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:16:49,851 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:16:49,968 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:16:52,332 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq***Logged in state***
+2021-01-16 20:16:52,343 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 20:16:52,350 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 20:16:52,352 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:16:53,197 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:27:07,876 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:27:07,876 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:27:08,445 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:27:08,445 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:27:08,494 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:27:08,590 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:27:08,598 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:27:08,599 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:27:08,600 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:27:08,691 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:27:08,806 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:27:10,505 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 20:27:10,514 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 20:27:10,522 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 20:27:10,524 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:27:10,524 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:38:51,870 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:38:51,876 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:38:52,923 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:38:52,938 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:38:52,971 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:38:53,305 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:38:53,321 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:38:53,321 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:38:53,321 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:38:53,433 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:38:53,543 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:38:56,666 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 20:38:56,675 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 20:38:56,677 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:38:56,678 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:39:38,652 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:39:38,662 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:39:46,426 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:39:46,428 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:39:46,444 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:39:46,506 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:39:46,506 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:39:46,506 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:39:46,506 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:39:46,598 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:39:46,728 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:39:53,892 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure : :Password is wrong
+2021-01-16 20:39:53,898 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 20:39:53,900 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:39:53,900 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:42:56,830 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:42:56,840 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:42:58,149 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:42:58,150 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:42:58,189 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:42:58,280 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:42:58,288 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:42:58,289 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:42:58,289 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:42:58,450 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:42:58,631 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:42:59,130 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 20:42:59,140 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 20:42:59,142 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:42:59,145 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:43:21,803 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:43:21,812 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:43:23,010 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:43:23,010 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:43:23,048 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:43:23,158 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:43:23,174 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:43:23,174 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:43:23,174 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:43:23,301 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:43:23,419 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:43:25,301 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure : :Password is wrong
+2021-01-16 20:43:25,308 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 20:43:25,311 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:43:25,312 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:44:35,433 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:44:35,447 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:44:37,754 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:44:37,754 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:44:37,821 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:44:37,919 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:44:37,935 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:44:37,935 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:44:37,935 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:44:38,095 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:44:38,203 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:44:38,313 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq***Logged in state***
+2021-01-16 20:44:40,609 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :
+2021-01-16 20:44:40,611 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:44:40,612 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:48:04,200 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:48:04,257 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:48:06,638 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:48:06,639 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:48:06,724 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:48:07,024 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:48:07,040 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:48:07,040 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:48:07,040 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:48:07,203 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:48:07,310 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:48:07,423 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq***Logged in state***
+2021-01-16 20:48:07,431 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 20:48:07,433 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:48:07,434 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:50:35,644 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:50:35,658 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:50:36,474 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 20:50:36,474 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 20:50:36,534 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 20:50:36,647 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 20:50:36,655 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 20:50:36,656 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 20:50:36,657 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 20:50:36,822 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 20:50:36,949 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 20:50:37,056 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq***Logged in state***
+2021-01-16 20:50:37,069 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 20:50:37,071 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 20:50:37,072 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:56:59,845 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:56:59,919 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:57:03,363 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 21:57:03,364 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 21:57:03,416 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:57:03,555 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 21:57:03,571 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 21:57:03,571 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 21:57:03,571 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 21:57:03,783 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 21:57:03,905 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 21:57:04,034 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 21:57:05,659 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.jsp***Logged in state***
+2021-01-16 21:57:05,671 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 21:57:05,677 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 21:57:05,679 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 21:57:05,680 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:59:35,307 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:59:35,357 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:59:36,057 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 21:59:36,057 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 21:59:36,144 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 21:59:36,312 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 21:59:36,328 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 21:59:36,328 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 21:59:36,328 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 21:59:36,502 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 21:59:36,612 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 21:59:36,707 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 21:59:36,730 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq***Logged in state***
+2021-01-16 21:59:37,591 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 21:59:37,600 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 21:59:37,602 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 21:59:37,605 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:03:48,209 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:03:48,271 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:03:50,894 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:03:50,902 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:03:51,003 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:03:51,112 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:03:51,120 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:03:51,121 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:03:51,123 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:03:51,276 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:03:51,386 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:03:51,487 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:03:52,569 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 22:03:52,578 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 22:03:52,580 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:03:52,580 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:04:34,186 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:04:34,194 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:04:34,878 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:04:34,878 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:04:34,925 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:04:35,042 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:04:35,051 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:04:35,052 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:04:35,054 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:04:35,170 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:04:35,294 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:04:35,387 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:04:35,407 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 22:04:35,415 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 22:04:35,417 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:04:35,417 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:07:22,740 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:07:22,965 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:07:27,613 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:07:27,614 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:07:27,712 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:07:27,866 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:07:27,881 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:07:27,881 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:07:27,881 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:07:28,293 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:07:28,401 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:07:28,503 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:07:43,638 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 22:07:43,643 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:07:43,644 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:09:02,539 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:09:02,551 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:09:09,746 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:09:09,746 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:09:09,802 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:09:10,006 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:09:10,014 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:09:10,015 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:09:10,015 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:09:10,332 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:09:10,441 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:09:10,535 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:09:25,694 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 22:09:25,889 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:09:25,889 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:14:10,847 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:14:10,907 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:14:13,185 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:14:13,192 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:14:13,261 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:14:13,341 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:14:13,357 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:14:13,357 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:14:13,357 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:14:13,504 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:14:13,612 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:14:14,881 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:14:14,881 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:14:14,909 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 22:14:14,915 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 22:14:14,916 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:14:14,919 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:15:26,535 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:15:26,574 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:15:28,423 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:15:28,423 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:15:28,525 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:15:28,630 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:15:28,636 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:15:28,637 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:15:28,637 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:15:28,776 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:15:28,882 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:15:28,979 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:15:28,980 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:15:35,056 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Enter Time-Track :Password is wrong
+2021-01-16 22:15:35,060 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:15:35,061 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:18:56,611 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:18:56,780 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:18:58,810 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:18:58,811 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:18:58,915 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:18:59,011 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:18:59,020 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:18:59,021 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:18:59,023 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:18:59,185 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:18:59,287 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:18:59,381 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:18:59,382 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:18:59,405 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 22:18:59,413 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 22:18:59,415 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:18:59,418 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:20:39,631 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:20:39,637 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:20:40,291 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:20:40,291 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:20:40,347 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:20:40,431 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:20:40,431 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:20:40,431 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:20:40,431 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:20:40,567 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:20:40,681 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:20:40,775 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:20:40,776 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:20:40,798 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 22:20:40,805 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 22:20:40,806 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:20:40,808 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:28:07,706 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:28:07,715 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:28:11,971 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:28:11,971 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:28:12,097 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:28:12,606 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:28:12,621 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:28:12,621 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:28:12,621 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:28:12,813 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:28:12,918 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:28:19,319 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:28:19,320 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:28:27,343 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 22:28:27,359 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 22:28:27,359 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:28:27,359 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:34:07,822 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:34:07,830 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:34:09,916 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:34:09,920 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:34:09,970 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:34:10,065 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:34:10,065 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:34:10,065 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:34:10,065 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:34:10,189 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:34:10,299 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:34:10,392 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:34:10,392 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:34:10,401 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Tilte of page :actiTIME - Login
+2021-01-16 22:34:10,401 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Title of page :actiTIME - Enter Time-Track
+2021-01-16 22:34:18,412 - com.actiTime.test.TC_001_LoginPageTest -INFO - getting current title
+2021-01-16 22:34:18,441 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - actiTIME - Enter Time-Trackcurrent title
+2021-01-16 22:34:18,456 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 22:34:18,456 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 22:34:18,456 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:34:18,456 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:36:56,181 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:36:56,188 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:36:56,726 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:36:56,726 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:36:56,773 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:36:56,892 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:36:56,900 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:36:56,901 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:36:56,901 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:36:56,995 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:36:57,102 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:37:02,446 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:37:02,447 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:37:02,454 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Tilte of page :actiTIME - Login
+2021-01-16 22:37:02,455 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Title of page :actiTIME - Enter Time-Track
+2021-01-16 22:37:10,460 - com.actiTime.test.TC_001_LoginPageTest -INFO - getting current title
+2021-01-16 22:37:10,482 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - current title :actiTIME - Enter Time-Track
+2021-01-16 22:37:10,498 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 22:37:10,498 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 22:37:10,498 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:37:10,498 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:37:59,161 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:37:59,172 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:38:03,601 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:38:03,601 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:38:03,621 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:38:03,661 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:38:03,676 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:38:03,676 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:38:03,676 - com.actiTime.test.TC_001_LoginPageTest -INFO - Username entered
+2021-01-16 22:38:03,779 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:38:03,900 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:38:04,006 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:38:04,007 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:38:04,011 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Tilte of page :actiTIME - Login
+2021-01-16 22:38:04,012 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Title of page :actiTIME - Enter Time-Track
+2021-01-16 22:38:12,026 - com.actiTime.test.TC_001_LoginPageTest -INFO - getting current title
+2021-01-16 22:38:12,048 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - current title :actiTIME - Login
+2021-01-16 22:38:12,064 - com.actiTime.test.TC_001_LoginPageTest -ERROR - Login Failure :actiTIME - Login :Password is wrong
+2021-01-16 22:38:12,064 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Login
+2021-01-16 22:38:12,064 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:38:12,064 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:46:42,102 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:46:42,115 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:46:43,166 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:46:43,167 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:46:43,188 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:46:43,236 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-16 22:46:43,251 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-16 22:46:43,251 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-16 22:46:43,348 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-16 22:46:43,459 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-16 22:46:47,742 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-16 22:46:47,832 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-16 22:46:47,848 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Tilte of page :actiTIME - Login
+2021-01-16 22:46:47,848 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Title of page :actiTIME - Enter Time-Track
+2021-01-16 22:46:55,849 - com.actiTime.test.TC_001_LoginPageTest -INFO - getting current title
+2021-01-16 22:46:55,867 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - current title :actiTIME - Enter Time-Track
+2021-01-16 22:46:55,882 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-16 22:46:55,882 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-16 22:46:55,882 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:46:55,882 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:57:50,626 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:57:50,633 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 22:57:51,946 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:57:51,957 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 22:57:52,100 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 22:57:52,224 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :
+2021-01-16 22:57:52,333 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :
+2021-01-16 22:57:52,423 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in
+2021-01-16 22:58:05,432 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-16 22:58:05,447 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-16 22:58:07,282 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 22:58:07,286 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:01:42,203 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:01:42,215 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:01:43,211 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:01:43,216 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 23:01:43,313 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:01:43,445 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :actiTIME - Login
+2021-01-16 23:01:43,553 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :actiTIME - Login
+2021-01-16 23:01:45,182 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in :actiTIME - Login
+2021-01-16 23:01:47,731 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-16 23:01:47,732 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-16 23:01:48,395 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 23:01:48,396 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:15:07,367 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:15:07,382 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:15:09,151 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:15:09,158 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 23:15:09,299 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:15:09,434 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :actiTIME - Login
+2021-01-16 23:15:09,547 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :actiTIME - Login
+2021-01-16 23:15:09,645 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in :actiTIME - Login
+2021-01-16 23:15:17,260 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - new window open :actiTIME - Enter Time-Track
+2021-01-16 23:15:17,267 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Accessed url :http://127.0.0.1/user/submit_tt.do
+2021-01-16 23:15:17,476 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - action to create new task lin :actiTIME - Enter Time-Track
+2021-01-16 23:15:20,108 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - select create new task.actiTIME - Create New Tasks
+2021-01-16 23:15:20,109 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-16 23:15:20,111 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-16 23:15:20,291 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Customer name 
+2021-01-16 23:15:20,404 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter project name
+2021-01-16 23:15:20,517 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter task name
+2021-01-16 23:15:20,830 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Task button action performed
+2021-01-16 23:15:20,830 - com.actiTime.test.TC_002_CreateNewTask -INFO - New task created successfully
+2021-01-16 23:15:20,844 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 23:15:20,845 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:34:34,661 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:34:34,695 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:34:36,844 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:34:36,844 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 23:34:36,981 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:34:37,132 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :actiTIME - Login
+2021-01-16 23:34:37,248 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :actiTIME - Login
+2021-01-16 23:34:37,338 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in :actiTIME - Login
+2021-01-16 23:34:37,358 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - new window open :actiTIME - Login
+2021-01-16 23:34:40,398 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Accessed url :http://127.0.0.1/user/submit_tt.do
+2021-01-16 23:34:40,630 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - action to create new task lin :actiTIME - Enter Time-Track
+2021-01-16 23:34:45,899 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - select create new task.actiTIME - Create New Tasks
+2021-01-16 23:34:45,899 - com.actiTime.pageObjects.CreateNewTask -INFO - Customer name :
+2021-01-16 23:34:45,900 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-16 23:34:45,902 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-16 23:34:45,903 - com.actiTime.pageObjects.CreateNewTask -WARN - Generating random cutomer nameclass org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:34:46,215 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Entered customer name :actiTIME - Create New Tasks
+2021-01-16 23:34:46,215 - com.actiTime.pageObjects.CreateNewTask -DEBUG - random generated customer name :uycQTotPPgGLCuH
+2021-01-16 23:34:46,215 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Customer name 
+2021-01-16 23:34:46,215 - com.actiTime.pageObjects.CreateNewTask -DEBUG - enter the project name :acti2
+2021-01-16 23:34:46,361 - com.actiTime.pageObjects.CreateNewTask -INFO - project name entered :actiTIME - Create New Tasks
+2021-01-16 23:34:46,361 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter project name
+2021-01-16 23:34:46,362 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Task name entered :task1
+2021-01-16 23:34:46,516 - com.actiTime.pageObjects.CreateNewTask -INFO - task name created successfully
+2021-01-16 23:34:46,517 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter task name
+2021-01-16 23:34:48,342 - com.actiTime.pageObjects.CreateNewTask -INFO - clicked on task button
+2021-01-16 23:34:48,343 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Task button action performed
+2021-01-16 23:34:48,344 - com.actiTime.test.TC_002_CreateNewTask -INFO - New task created successfully
+2021-01-16 23:34:48,349 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 23:34:48,350 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:45:02,830 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:45:02,838 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:45:05,638 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:45:05,648 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-16 23:45:05,705 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-16 23:45:05,813 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :actiTIME - Login
+2021-01-16 23:45:05,931 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :actiTIME - Login
+2021-01-16 23:45:10,203 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in :actiTIME - Login
+2021-01-16 23:45:10,218 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - new window open :actiTIME - Enter Time-Track
+2021-01-16 23:45:10,226 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Accessed url :http://127.0.0.1/user/submit_tt.do
+2021-01-16 23:45:10,231 - com.actiTime.pageObjects.CreateNewTask -INFO - Click create new task :actiTIME - Enter Time-Track
+2021-01-16 23:45:10,460 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Performed action create new task :http://127.0.0.1/user/submit_tt.do
+2021-01-16 23:45:10,468 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - action to create new task lin :actiTIME - Enter Time-Track
+2021-01-16 23:45:10,484 - com.actiTime.pageObjects.CreateNewTask -INFO - New task dropdown :actiTIME - Enter Time-Track
+2021-01-16 23:45:10,495 - com.actiTime.pageObjects.CreateNewTask -DEBUG - window handling :http://127.0.0.1/user/submit_tt.do
+2021-01-16 23:45:10,503 - com.actiTime.pageObjects.CreateNewTask -DEBUG - current title :actiTIME - Enter Time-Track
+2021-01-16 23:45:12,571 - com.actiTime.pageObjects.CreateNewTask -DEBUG - selecting new customer in dropdown
+2021-01-16 23:45:12,807 - com.actiTime.pageObjects.CreateNewTask -INFO - customer selected successfully :actiTIME - Create New Tasks
+2021-01-16 23:45:12,820 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - select create new task.actiTIME - Create New Tasks
+2021-01-16 23:45:12,821 - com.actiTime.pageObjects.CreateNewTask -INFO - Customer name :
+2021-01-16 23:45:12,822 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-16 23:45:12,822 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-16 23:45:12,822 - com.actiTime.pageObjects.CreateNewTask -WARN - Generating random cutomer nameclass org.openqa.selenium.chrome.ChromeDriver
+2021-01-16 23:45:13,017 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Entered customer name :actiTIME - Create New Tasks
+2021-01-16 23:45:13,018 - com.actiTime.pageObjects.CreateNewTask -DEBUG - random generated customer name :erZpiVQrFebySMC
+2021-01-16 23:45:13,018 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Customer name 
+2021-01-16 23:45:13,018 - com.actiTime.pageObjects.CreateNewTask -DEBUG - enter the project name :acti2
+2021-01-16 23:45:13,168 - com.actiTime.pageObjects.CreateNewTask -INFO - project name entered :actiTIME - Create New Tasks
+2021-01-16 23:45:13,168 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter project name
+2021-01-16 23:45:13,168 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Task name entered :task1
+2021-01-16 23:45:13,311 - com.actiTime.pageObjects.CreateNewTask -INFO - task name created successfully
+2021-01-16 23:45:13,312 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter task name
+2021-01-16 23:45:13,641 - com.actiTime.pageObjects.CreateNewTask -INFO - clicked on task button
+2021-01-16 23:45:13,642 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Task button action performed
+2021-01-16 23:45:13,644 - com.actiTime.test.TC_002_CreateNewTask -INFO - New task created successfully
+2021-01-16 23:45:13,650 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-16 23:45:13,652 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:33:05,931 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:33:06,018 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:33:15,930 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-17 17:33:15,930 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-17 17:33:16,496 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-17 17:33:16,874 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :actiTIME - Login
+2021-01-17 17:33:17,005 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :actiTIME - Login
+2021-01-17 17:33:17,098 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in :actiTIME - Login
+2021-01-17 17:33:17,217 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - new window open :actiTIME - Login
+2021-01-17 17:33:17,225 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Accessed url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-17 17:33:17,231 - com.actiTime.pageObjects.CreateNewTask -INFO - Click create new task :actiTIME - Login
+2021-01-17 17:33:31,139 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Performed action create new task :http://127.0.0.1/user/submit_tt.do
+2021-01-17 17:33:31,151 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - action to create new task lin :actiTIME - Enter Time-Track
+2021-01-17 17:33:31,157 - com.actiTime.pageObjects.CreateNewTask -INFO - New task dropdown :actiTIME - Enter Time-Track
+2021-01-17 17:33:31,250 - com.actiTime.pageObjects.CreateNewTask -DEBUG - window handling :http://127.0.0.1/user/submit_tt.do
+2021-01-17 17:33:31,259 - com.actiTime.pageObjects.CreateNewTask -DEBUG - current title :actiTIME - Enter Time-Track
+2021-01-17 17:33:35,157 - com.actiTime.pageObjects.CreateNewTask -DEBUG - selecting new customer in dropdown
+2021-01-17 17:33:37,452 - com.actiTime.pageObjects.CreateNewTask -INFO - customer selected successfully :actiTIME - Create New Tasks
+2021-01-17 17:33:37,466 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - select create new task.actiTIME - Create New Tasks
+2021-01-17 17:33:37,467 - com.actiTime.pageObjects.CreateNewTask -INFO - Customer name :
+2021-01-17 17:33:37,469 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-17 17:33:37,519 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-17 17:33:37,519 - com.actiTime.pageObjects.CreateNewTask -WARN - Generating random cutomer nameclass org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:33:37,894 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Entered customer name :actiTIME - Create New Tasks
+2021-01-17 17:33:37,894 - com.actiTime.pageObjects.CreateNewTask -DEBUG - random generated customer name :eDxtXEDAHjAVera
+2021-01-17 17:33:37,895 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Customer name 
+2021-01-17 17:33:37,895 - com.actiTime.pageObjects.CreateNewTask -DEBUG - enter the project name :acti2
+2021-01-17 17:33:38,021 - com.actiTime.pageObjects.CreateNewTask -INFO - project name entered :actiTIME - Create New Tasks
+2021-01-17 17:33:38,022 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter project name
+2021-01-17 17:33:38,023 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Task name entered :task1
+2021-01-17 17:33:38,159 - com.actiTime.pageObjects.CreateNewTask -INFO - task name created successfully
+2021-01-17 17:33:38,159 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter task name
+2021-01-17 17:33:39,395 - com.actiTime.pageObjects.CreateNewTask -INFO - clicked on task button
+2021-01-17 17:33:39,396 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Task button action performed
+2021-01-17 17:33:39,396 - com.actiTime.test.TC_002_CreateNewTask -INFO - New task created successfully
+2021-01-17 17:33:39,398 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-17 17:33:39,398 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:41:57,203 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:41:57,307 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:42:03,528 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-17 17:42:03,528 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-17 17:42:03,642 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:42:03,829 - com.actiTime.test.TC_001_LoginPageTest -INFO - Title of page :actiTIME - Login
+2021-01-17 17:42:03,932 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Enter the username
+2021-01-17 17:42:03,933 - com.actiTime.test.TC_001_LoginPageTest -INFO - admin
+2021-01-17 17:42:04,999 - com.actiTime.test.TC_001_LoginPageTest -INFO - Enter the password 
+2021-01-17 17:42:05,218 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Click on SignIn Button
+2021-01-17 17:42:05,861 - com.actiTime.test.TC_001_LoginPageTest -INFO - Clicked on SignIn Button actiTIME - Login
+2021-01-17 17:42:05,861 - com.actiTime.test.TC_001_LoginPageTest -INFO - wait load
+2021-01-17 17:42:05,876 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Tilte of page :actiTIME - Login
+2021-01-17 17:42:05,876 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - Title of page :actiTIME - Enter Time-Track
+2021-01-17 17:42:13,891 - com.actiTime.test.TC_001_LoginPageTest -INFO - getting current title
+2021-01-17 17:42:13,909 - com.actiTime.test.TC_001_LoginPageTest -DEBUG - current title :actiTIME - Enter Time-Track
+2021-01-17 17:42:13,924 - com.actiTime.test.TC_001_LoginPageTest -INFO - http://127.0.0.1/user/submit_tt.do***Logged in state***
+2021-01-17 17:42:13,924 - com.actiTime.test.TC_001_LoginPageTest -INFO - Login test completed :actiTIME - Enter Time-Track
+2021-01-17 17:42:13,924 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-17 17:42:13,924 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:42:20,950 - com.actiTime.test.Baseclass -DEBUG - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:42:20,950 - com.actiTime.test.Baseclass -INFO - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:42:28,839 - com.actiTime.test.Baseclass -INFO - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-17 17:42:28,857 - com.actiTime.test.Baseclass -DEBUG - Url accessed
+2021-01-17 17:42:28,919 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-17 17:42:29,049 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set user name :actiTIME - Login
+2021-01-17 17:42:29,208 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Set password :actiTIME - Login
+2021-01-17 17:42:29,328 - com.actiTime.test.TC_002_CreateNewTask -INFO - user is signing in :actiTIME - Login
+2021-01-17 17:42:41,523 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - new window open :actiTIME - Enter Time-Track
+2021-01-17 17:42:41,530 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Accessed url :http://127.0.0.1/user/submit_tt.do
+2021-01-17 17:42:41,537 - com.actiTime.pageObjects.CreateNewTask -INFO - Click create new task :actiTIME - Enter Time-Track
+2021-01-17 17:42:42,787 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Performed action create new task :http://127.0.0.1/user/submit_tt.do
+2021-01-17 17:42:42,801 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - action to create new task lin :actiTIME - Enter Time-Track
+2021-01-17 17:42:42,806 - com.actiTime.pageObjects.CreateNewTask -INFO - New task dropdown :actiTIME - Enter Time-Track
+2021-01-17 17:42:42,814 - com.actiTime.pageObjects.CreateNewTask -DEBUG - window handling :http://127.0.0.1/user/submit_tt.do
+2021-01-17 17:42:42,821 - com.actiTime.pageObjects.CreateNewTask -DEBUG - current title :actiTIME - Enter Time-Track
+2021-01-17 17:42:48,295 - com.actiTime.pageObjects.CreateNewTask -DEBUG - selecting new customer in dropdown
+2021-01-17 17:42:49,501 - com.actiTime.pageObjects.CreateNewTask -INFO - customer selected successfully :actiTIME - Create New Tasks
+2021-01-17 17:42:49,507 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - select create new task.actiTIME - Create New Tasks
+2021-01-17 17:42:49,508 - com.actiTime.pageObjects.CreateNewTask -INFO - Customer name :
+2021-01-17 17:42:49,509 - com.actiTime.test.Baseclass -DEBUG - Random string generated :class com.actiTime.test.Baseclass
+2021-01-17 17:42:49,544 - com.actiTime.test.Baseclass -INFO - Generated alphabet 
+2021-01-17 17:42:49,544 - com.actiTime.pageObjects.CreateNewTask -WARN - Generating random cutomer nameclass org.openqa.selenium.chrome.ChromeDriver
+2021-01-17 17:42:50,643 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Entered customer name :actiTIME - Create New Tasks
+2021-01-17 17:42:50,643 - com.actiTime.pageObjects.CreateNewTask -DEBUG - random generated customer name :JoqSuAONaOyxFnS
+2021-01-17 17:42:50,652 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Customer name 
+2021-01-17 17:42:50,652 - com.actiTime.pageObjects.CreateNewTask -DEBUG - enter the project name :acti2
+2021-01-17 17:42:50,812 - com.actiTime.pageObjects.CreateNewTask -INFO - project name entered :actiTIME - Create New Tasks
+2021-01-17 17:42:50,813 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter project name
+2021-01-17 17:42:50,813 - com.actiTime.pageObjects.CreateNewTask -DEBUG - Task name entered :task1
+2021-01-17 17:42:50,940 - com.actiTime.pageObjects.CreateNewTask -INFO - task name created successfully
+2021-01-17 17:42:50,941 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - enter task name
+2021-01-17 17:42:52,120 - com.actiTime.pageObjects.CreateNewTask -INFO - clicked on task button
+2021-01-17 17:42:52,121 - com.actiTime.test.TC_002_CreateNewTask -DEBUG - Task button action performed
+2021-01-17 17:42:52,122 - com.actiTime.test.TC_002_CreateNewTask -INFO - New task created successfully
+2021-01-17 17:42:52,124 - com.actiTime.test.Baseclass -DEBUG - Execution completed :
+2021-01-17 17:42:52,125 - com.actiTime.test.Baseclass -INFO - Quit browser :class org.openqa.selenium.chrome.ChromeDriver

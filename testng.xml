@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+	<listeners>
+		<listener class-name="com.actiTime.Utilities.ListenerTest">
+		</listener>
+	</listeners>
+	<test name="Smoke">
+		<parameter name="browser" value="Firefox">
+		</parameter>
+		<classes>
+			<class name="com.actiTime.test.TC_001_LoginPageTest" />
+			<class name="com.actiTime.test.TC_002_CreateNewTask" />
+		</classes>
+	</test>
+</suite> 
