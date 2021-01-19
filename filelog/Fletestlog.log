@@ -1,57 +1,13 @@
-2021-01-17 17:41:57,203 DEBUG [main] Baseclass:41 - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:41:57,307  INFO [main] Baseclass:42 - class org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:42:03,528  INFO [main] Baseclass:46 - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
-2021-01-17 17:42:03,528 DEBUG [main] Baseclass:47 - Url accessed
-2021-01-17 17:42:03,642 DEBUG [main] TC_001_LoginPageTest:20 - Login Test execution: class org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:42:03,829  INFO [main] TC_001_LoginPageTest:24 - Title of page :actiTIME - Login
-2021-01-17 17:42:03,932 DEBUG [main] TC_001_LoginPageTest:29 - Enter the username
-2021-01-17 17:42:03,933  INFO [main] TC_001_LoginPageTest:30 - admin
-2021-01-17 17:42:04,999  INFO [main] TC_001_LoginPageTest:32 - Enter the password 
-2021-01-17 17:42:05,218 DEBUG [main] TC_001_LoginPageTest:34 - Click on SignIn Button
-2021-01-17 17:42:05,861  INFO [main] TC_001_LoginPageTest:36 - Clicked on SignIn Button actiTIME - Login
-2021-01-17 17:42:05,861  INFO [main] TC_001_LoginPageTest:37 - wait load
-2021-01-17 17:42:05,876 DEBUG [main] TC_001_LoginPageTest:40 - Tilte of page :actiTIME - Login
-2021-01-17 17:42:05,876 DEBUG [main] TC_001_LoginPageTest:42 - Title of page :actiTIME - Enter Time-Track
-2021-01-17 17:42:13,891  INFO [main] TC_001_LoginPageTest:46 - getting current title
-2021-01-17 17:42:13,909 DEBUG [main] TC_001_LoginPageTest:48 - current title :actiTIME - Enter Time-Track
-2021-01-17 17:42:13,924  INFO [main] TC_001_LoginPageTest:54 - http://127.0.0.1/user/submit_tt.do***Logged in state***
-2021-01-17 17:42:13,924  INFO [main] TC_001_LoginPageTest:73 - Login test completed :actiTIME - Enter Time-Track
-2021-01-17 17:42:13,924 DEBUG [main] Baseclass:93 - Execution completed :
-2021-01-17 17:42:13,924  INFO [main] Baseclass:95 - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:42:20,950 DEBUG [main] Baseclass:41 - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:42:20,950  INFO [main] Baseclass:42 - class org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:42:28,839  INFO [main] Baseclass:46 - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
-2021-01-17 17:42:28,857 DEBUG [main] Baseclass:47 - Url accessed
-2021-01-17 17:42:28,919 DEBUG [main] TC_002_CreateNewTask:20 - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
-2021-01-17 17:42:29,049 DEBUG [main] TC_002_CreateNewTask:22 - Set user name :actiTIME - Login
-2021-01-17 17:42:29,208 DEBUG [main] TC_002_CreateNewTask:24 - Set password :actiTIME - Login
-2021-01-17 17:42:29,328  INFO [main] TC_002_CreateNewTask:26 - user is signing in :actiTIME - Login
-2021-01-17 17:42:41,523 DEBUG [main] TC_002_CreateNewTask:31 - new window open :actiTIME - Enter Time-Track
-2021-01-17 17:42:41,530 DEBUG [main] TC_002_CreateNewTask:32 - Accessed url :http://127.0.0.1/user/submit_tt.do
-2021-01-17 17:42:41,537  INFO [main] CreateNewTask:57 - Click create new task :actiTIME - Enter Time-Track
-2021-01-17 17:42:42,787 DEBUG [main] CreateNewTask:59 - Performed action create new task :http://127.0.0.1/user/submit_tt.do
-2021-01-17 17:42:42,801 DEBUG [main] TC_002_CreateNewTask:34 - action to create new task lin :actiTIME - Enter Time-Track
-2021-01-17 17:42:42,806  INFO [main] CreateNewTask:63 - New task dropdown :actiTIME - Enter Time-Track
-2021-01-17 17:42:42,814 DEBUG [main] CreateNewTask:66 - window handling :http://127.0.0.1/user/submit_tt.do
-2021-01-17 17:42:42,821 DEBUG [main] CreateNewTask:67 - current title :actiTIME - Enter Time-Track
-2021-01-17 17:42:48,295 DEBUG [main] CreateNewTask:80 - selecting new customer in dropdown
-2021-01-17 17:42:49,501  INFO [main] CreateNewTask:83 - customer selected successfully :actiTIME - Create New Tasks
-2021-01-17 17:42:49,507 DEBUG [main] TC_002_CreateNewTask:37 - select create new task.actiTIME - Create New Tasks
-2021-01-17 17:42:49,508  INFO [main] CreateNewTask:96 - Customer name :
-2021-01-17 17:42:49,509 DEBUG [main] Baseclass:100 - Random string generated :class com.actiTime.test.Baseclass
-2021-01-17 17:42:49,544  INFO [main] Baseclass:102 - Generated alphabet 
-2021-01-17 17:42:49,544  WARN [main] CreateNewTask:98 - Generating random cutomer nameclass org.openqa.selenium.chrome.ChromeDriver
-2021-01-17 17:42:50,643 DEBUG [main] CreateNewTask:100 - Entered customer name :actiTIME - Create New Tasks
-2021-01-17 17:42:50,643 DEBUG [main] CreateNewTask:101 - random generated customer name :JoqSuAONaOyxFnS
-2021-01-17 17:42:50,652 DEBUG [main] TC_002_CreateNewTask:39 - Customer name 
-2021-01-17 17:42:50,652 DEBUG [main] CreateNewTask:105 - enter the project name :acti2
-2021-01-17 17:42:50,812  INFO [main] CreateNewTask:107 - project name entered :actiTIME - Create New Tasks
-2021-01-17 17:42:50,813 DEBUG [main] TC_002_CreateNewTask:41 - enter project name
-2021-01-17 17:42:50,813 DEBUG [main] CreateNewTask:111 - Task name entered :task1
-2021-01-17 17:42:50,940  INFO [main] CreateNewTask:113 - task name created successfully
-2021-01-17 17:42:50,941 DEBUG [main] TC_002_CreateNewTask:43 - enter task name
-2021-01-17 17:42:52,120  INFO [main] CreateNewTask:118 - clicked on task button
-2021-01-17 17:42:52,121 DEBUG [main] TC_002_CreateNewTask:45 - Task button action performed
-2021-01-17 17:42:52,122  INFO [main] TC_002_CreateNewTask:46 - New task created successfully
-2021-01-17 17:42:52,124 DEBUG [main] Baseclass:93 - Execution completed :
-2021-01-17 17:42:52,125  INFO [main] Baseclass:95 - Quit browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-19 08:17:23,692 DEBUG [main] Baseclass:41 - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-01-19 08:17:23,983  INFO [main] Baseclass:42 - class org.openqa.selenium.chrome.ChromeDriver
+2021-01-19 08:17:47,608  INFO [main] Baseclass:46 - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-19 08:17:47,610 DEBUG [main] Baseclass:47 - Url accessed
+2021-01-19 08:17:48,634 DEBUG [main] TC_002_CreateNewTask:20 - Access url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-19 08:17:49,571 DEBUG [main] TC_002_CreateNewTask:22 - Set user name :actiTIME - Login
+2021-01-19 08:17:50,060 DEBUG [main] TC_002_CreateNewTask:24 - Set password :actiTIME - Login
+2021-01-19 08:17:50,432  INFO [main] TC_002_CreateNewTask:26 - user is signing in :actiTIME - Login
+2021-01-19 08:17:50,565 DEBUG [main] TC_002_CreateNewTask:31 - new window open :actiTIME - Login
+2021-01-19 08:17:50,577 DEBUG [main] TC_002_CreateNewTask:32 - Accessed url :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-01-19 08:17:50,583  INFO [main] CreateNewTask:57 - Click create new task :actiTIME - Login
+2021-01-19 08:18:21,943 DEBUG [main] Baseclass:93 - Execution completed :
+2021-01-19 08:18:21,944  INFO [main] Baseclass:95 - Quit browser :class org.openqa.selenium.chrome.ChromeDriver

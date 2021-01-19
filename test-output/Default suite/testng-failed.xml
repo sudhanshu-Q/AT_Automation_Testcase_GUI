@@ -6,4 +6,15 @@
       <class name="com.actiTime.test.TC_002_CreateNewTask"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.actiTime.test.TC_002_CreateNewTask">
+        <methods>
+          <include name="createNewTask"/>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.actiTime.test.TC_002_CreateNewTask -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
