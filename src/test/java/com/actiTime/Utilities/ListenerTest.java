@@ -1,11 +1,13 @@
 package com.actiTime.Utilities;
 
+import java.awt.dnd.DragGestureEvent;
 import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,22 +24,27 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 public class ListenerTest extends Baseclass implements ITestListener
 {
 //	WebDriver driver=null;
-	String filePath = "D:\\GitLocalRepo\\ActiTime_Automation\\Screenshots";
+//	String filePath = "D:\\GitLocalRepo\\ActiTime_Automation\\Screenshots";
+public static	Logger log=Logger.getLogger(ListenerTest.class);
 	public void onTestStart(ITestResult result) 
 	{
-		System.out.println("Test started");
+		log.debug("Test started :"+result.getTestName());
+		log.info("Calling Listener Test class");
 
 	}
 
 	public void onTestSuccess(ITestResult result)
 	{
-		System.out.println("Test Success");	
+		log.debug("On test success :"+result.getTestName());
+		log.info("Test success");
 	}
 
 	public void onTestFailure(ITestResult result) 
 	{
-		System.out.println("***** Error "+result.getName()+" test has failed *****");
-		takeScreebshot(result.getMethod().getMethodName());
+		log.debug("Failure to load "+result.getMethod());
+//		System.out.println("***** Error "+result.getName()+" test has failed *****");
+	takeScreebshot(result.getMethod().getMethodName());
+	log.debug("***** Error"+result.getTestName().toString()+"********test  failed *******");
 //		//	ITestContext context = result.getTestContext();
 //		//WebDriver driver = (WebDriver)context.getAttribute("driver");
 //		try {

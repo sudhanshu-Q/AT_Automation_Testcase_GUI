@@ -17,9 +17,10 @@ public class LoginPage
 		driver=rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-	@FindBy(name="username")
+	@FindBy(name="swewew")
 	@CacheLookup
 	WebElement tbUsername;
+	//username
 	
 	@FindBy(name="pwd")
 	@CacheLookup
