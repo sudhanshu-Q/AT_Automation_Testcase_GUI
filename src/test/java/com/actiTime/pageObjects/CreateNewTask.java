@@ -73,8 +73,9 @@ public class CreateNewTask {
 				// createnewTaskDropdown.click();
 				log.debug("selecting new customer in dropdown");
 				Select createDropDown = new Select(createnewTaskDropdown);
+				log.info("customer selected successfully :" + createDropDown.getOptions());
 				createDropDown.selectByIndex(1);
-				log.info("customer selected successfully :" + driver.getTitle());
+			
 			}
 			// }
 			// //switch to the parent window
