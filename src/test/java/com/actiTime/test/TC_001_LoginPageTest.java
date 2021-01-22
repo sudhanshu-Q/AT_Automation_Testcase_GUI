@@ -17,7 +17,7 @@ public class TC_001_LoginPageTest extends Baseclass
 	@Test()
 	public void loginTest()
 	{
-		log.debug("Login Test execution: "+driver.getClass());
+		log.debug("Login Test execution: "+driver.getClass().getMethods());
 		LoginPage initLogin=new LoginPage(driver);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		String TitlePrelogin=driver.getTitle();
@@ -26,8 +26,8 @@ public class TC_001_LoginPageTest extends Baseclass
 		SoftAssert titleVerify=new SoftAssert();
 		titleVerify.assertEquals(TitlePrelogin,"actiTIME - Login");
 
-		log.debug("Enter the username");
-		log.info(readconfig.getUsername().toString());
+		log.debug("Enter the username :"+readconfig.getUsername().toString());
+		log.info(readconfig.getUsername().toString()+": source :"+ readconfig.toString());
 		initLogin.setUserName();
 		log.info("Enter the password ");
 		initLogin.setPassword();
