@@ -98,7 +98,7 @@ public class Baseclass
 	@AfterClass
 	public void shutDown() {
 		log.debug("Execution completed :");
-		//driver.quit();
+		driver.quit();
 		log.info("Quit browser :" + driver.getClass());
 
 	}

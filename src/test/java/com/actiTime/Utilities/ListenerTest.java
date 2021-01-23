@@ -17,7 +17,7 @@ public class ListenerTest extends Baseclass implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		log.debug("On test success :" + result.getTestName());
+		log.debug("On test success :" + result.getMethod().getMethodName());
 		log.info("Test success");
 	}
 

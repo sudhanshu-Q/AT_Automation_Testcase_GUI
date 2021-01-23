@@ -89,8 +89,8 @@ public class CreateNewUser {
 		createNewUserLink.click();
 		log.debug("Performed action create new task :" + driver.getCurrentUrl());
 	}
-	public void clickOnNewUserBTN()
-	{
+
+	public void clickOnNewUserBTN() {
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		log.info("Click create new User button :" + createNewUserButton.isDisplayed());
 		createNewUserButton.click();
@@ -102,42 +102,56 @@ public class CreateNewUser {
 		log.debug("Please enter the user :" + enterNewUserNameTB.getText());
 		String userNameGenerate = readUser.generateRandomNewUserName();
 		enterNewUserNameTB.sendKeys(userNameGenerate);
-		log.info("generated user name : "+ userNameGenerate);
+		log.info("generated user name : " + userNameGenerate);
 	}
-public void enterPassword()
-{
-	enterPasswordTB.click();
-	enterPasswordTB.sendKeys(readUser.getpassword());
-	
-}
-public void enterpasswordRetype()
-{
-	enterRetypePasswordTB.click();
-	enterRetypePasswordTB.sendKeys(readUser.getpassword());
-}
-public void enterFirstName()
-{
-	enterFirstNameTB.click();
-	enterFirstNameTB.sendKeys(readUser.firstName());
-}
-public void enterLastname()
-{
-	enterLastNameTB.click();
-	enterLastNameTB.sendKeys(readUser.getlastnameUser());
-}
-public void enterEmailAdress()
-{
-	enterEmailAddressTB.click();
-	enterEmailAddressTB.sendKeys(readUser.getEmailAddress());
-}
-public void enterFax()
-{
-	enterFaxTB.click();
-	enterFaxTB.sendKeys(readUser.getfax());
-}
-public void clickSubmitBtnCreateNewUser()
-{
-	clickCreateNewUserButtonSubmit.click();
-}
+
+	public void enterPassword() {
+		log.debug("Enter the password for create a user :" + enterPasswordTB.isDisplayed());
+		enterPasswordTB.click();
+		enterPasswordTB.sendKeys(readUser.getpassword());
+		log.info("password entered successfullt :" + driver.getTitle());
+
+	}
+
+	public void enterpasswordRetype() {
+		log.debug("Retype password : " + enterRetypePasswordTB.isDisplayed());
+		enterRetypePasswordTB.click();
+		enterRetypePasswordTB.sendKeys(readUser.getpassword());
+		log.info("password entered : " + readUser.getpassword().length());
+	}
+
+	public void enterFirstName() {
+		log.debug("Enter first name :" + readUser.firstName().toUpperCase());
+		enterFirstNameTB.click();
+		enterFirstNameTB.sendKeys(readUser.firstName());
+		log.info("First name entered successfully :" + "Tota charcters :" + readUser.firstName().length());
+	}
+
+	public void enterLastname() {
+		log.debug("Enter Last name : " + readUser.getlastnameUser().toUpperCase());
+		enterLastNameTB.click();
+		enterLastNameTB.sendKeys(readUser.getlastnameUser());
+		log.info("Last name entered successfully : " + "Total characters :" + readUser.getlastnameUser().length());
+	}
+
+	public void enterEmailAdress() {
+		log.debug("Enter email id : " + readUser.getEmailAddress().toString());
+		enterEmailAddressTB.click();
+		enterEmailAddressTB.sendKeys(readUser.getEmailAddress());
+		log.info("Email id :" + readUser.getEmailAddress().length());
+	}
+
+	public void enterFax() {
+		log.debug("Enter the Fax :" + readUser.getfax().toString());
+		enterFaxTB.click();
+		enterFaxTB.sendKeys(readUser.getfax());
+		log.info("Fax enter successfully :" + enterFaxTB.isDisplayed());
+	}
+
+	public void clickSubmitBtnCreateNewUser() {
+		log.debug("Click on Create new user submit button :" + clickCreateNewUserButtonSubmit.isDisplayed());
+		clickCreateNewUserButtonSubmit.click();
+		log.info("Submitting the form :" + driver.getTitle());
+	}
 
 }
