@@ -11,6 +11,7 @@
 		<classes>
 			<class name="com.actiTime.test.TC_001_LoginPageTest" />
 			<class name="com.actiTime.test.TC_002_CreateNewTask" />
+			<class name="com.actiTime.test.TC_003_CreateNewUser" />
 		</classes>
 	</test>
 </suite> 
