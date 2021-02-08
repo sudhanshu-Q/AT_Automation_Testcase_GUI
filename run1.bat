@@ -1,2 +1,3 @@
-cd C:\Users\Shudhanshu\eclipse-workspace\ActiTime_Automation
+d: 
+cd D:\AT_channel\ActiTime_Automation
 mvn clean install
