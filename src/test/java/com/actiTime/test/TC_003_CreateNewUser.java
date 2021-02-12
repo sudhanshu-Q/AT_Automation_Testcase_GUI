@@ -10,6 +10,14 @@ import com.actiTime.Utilities.TestUtil;
 import com.actiTime.pageObjects.CreateNewUser;
 import com.actiTime.pageObjects.LoginPage;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+
 public class TC_003_CreateNewUser extends Baseclass {
 
 	public static Logger log=Logger.getLogger(TC_003_CreateNewUser.class);
@@ -17,6 +25,12 @@ public class TC_003_CreateNewUser extends Baseclass {
 
 
 	@Test
+	@Description("Create new user test")
+	@Epic("AT:003")
+	@Feature("Feature: Create new user functionality")
+	@Story("Create New User:003")
+	@Step("Verify create new user test")
+	@Severity(SeverityLevel.CRITICAL)
 	public void createUserTest() {
 		LoginPage lp = new LoginPage(driver);
 		log.debug("Access url :" + driver.getCurrentUrl());

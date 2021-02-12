@@ -9,10 +9,24 @@ import com.actiTime.Utilities.TestUtil;
 import com.actiTime.pageObjects.CreateNewTask;
 import com.actiTime.pageObjects.LoginPage;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+
 public class TC_002_CreateNewTask extends Baseclass {
 	final static Logger logger = Logger.getLogger(TC_002_CreateNewTask.class);
 
 	@Test()
+	@Description("Create new Task test")
+	@Epic("AT:002")
+	@Feature("Feature: Create new Task functionality")
+	@Story("Create new Task:002")
+	@Step("Verify Create New Task test")
+	@Severity(SeverityLevel.CRITICAL)
 	public void createNewTask() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
 		logger.debug("Access url :" + driver.getCurrentUrl());

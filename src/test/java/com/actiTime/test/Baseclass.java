@@ -38,7 +38,8 @@ public class Baseclass
 		// if (br.equals("Chrome"))
 		// {
 		// ChromeDriver driver;
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());

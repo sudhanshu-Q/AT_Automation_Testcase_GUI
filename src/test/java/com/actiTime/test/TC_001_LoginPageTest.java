@@ -10,11 +10,25 @@ import com.actiTime.Utilities.ReadDataConfiguration;
 import com.actiTime.Utilities.TestUtil;
 import com.actiTime.pageObjects.LoginPage;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+
 public class TC_001_LoginPageTest extends Baseclass
 {
 	final static Logger log=Logger.getLogger(TC_001_LoginPageTest.class);
 	ReadDataConfiguration readLogin=new ReadDataConfiguration();
 	@Test()
+	@Description("Login user test")
+	@Epic("AT:001")
+	@Feature("Feature: Login feature")
+	@Story("Login Test:001")
+	@Step("verify login test")
+	@Severity(SeverityLevel.BLOCKER)
 	public void loginTest()
 	{
 		log.debug("Login Test execution: "+driver.getClass().getMethods());
@@ -22,7 +36,6 @@ public class TC_001_LoginPageTest extends Baseclass
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		String TitlePrelogin=driver.getTitle();
 		log.info("Title of page :"+TitlePrelogin);
-
 		SoftAssert titleVerify=new SoftAssert();
 		titleVerify.assertEquals(TitlePrelogin,"actiTIME - Login");
 
