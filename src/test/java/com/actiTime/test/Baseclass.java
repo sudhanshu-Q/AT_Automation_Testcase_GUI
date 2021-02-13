@@ -41,16 +41,16 @@ public class Baseclass
 		// if (br.equals("Chrome"))
 		// {
 		// ChromeDriver driver;
-		//WebDriverManager.chromedriver().setup();
+		// WebDriverManager.chromedriver().setup();
 		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
-		//FirefoxOptions options=new FirefoxOptions();
-		//options.addArguments("--headless");
-		WebDriver driver=new FirefoxDriver();
-//		ChromeOptions chromeOptions= new ChromeOptions();
-	//chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-	//	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-		//  "./Drivers/chromedriver.exe"
-		//driver = new ChromeDriver();
+		// FirefoxOptions options=new FirefoxOptions();
+		// options.addArguments("--headless");
+		driver = new FirefoxDriver();
+		// ChromeOptions chromeOptions= new ChromeOptions();
+		// chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+		// System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		// "./Drivers/chromedriver.exe"
+		// driver = new ChromeDriver();
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());
 		log.debug(readconfig.getUrl());
