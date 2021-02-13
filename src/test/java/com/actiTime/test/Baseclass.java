@@ -29,10 +29,8 @@ public class Baseclass
 {
 	final static Logger log = Logger.getLogger(Baseclass.class);
 
-	static WebDriver driver;
+	public WebDriver driver;
 	ReadDataConfiguration readconfig = new ReadDataConfiguration();
-
-	// public WebDriver;
 
 	@Parameters("browser")
 	@BeforeClass
