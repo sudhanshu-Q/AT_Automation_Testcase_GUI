@@ -11,6 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestListener;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -39,8 +40,14 @@ public class Baseclass
 		// {
 		// ChromeDriver driver;
 		//WebDriverManager.chromedriver().setup();
+		
+		ChromeOptions chromeOptions= new ChromeOptions();
+		chromeOptions.setBinary("D:\\AT_channel\\ActiTime_Automation\\Drivers\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-		driver = new ChromeDriver();
+		
+
+
+		driver = new ChromeDriver(chromeOptions);
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());
 		log.debug(readconfig.getUrl());
