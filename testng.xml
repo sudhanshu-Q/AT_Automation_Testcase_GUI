@@ -5,13 +5,13 @@
 		<listener class-name="com.actiTime.Utilities.ListenerTest">
 		</listener>
 	</listeners>
-	<test name="Smoke">
-		<parameter name="browser" value="Chrome">
+	<test name="Smoke_Firefox">
+		<parameter name="browser" value="Firefox">
 		</parameter>
 		<classes>
 			<class name="com.actiTime.test.TC_001_LoginPageTest" />
 			<class name="com.actiTime.test.TC_002_CreateNewTask" />
 			<class name="com.actiTime.test.TC_003_CreateNewUser" />
 		</classes>
-	</test>
+		</test>
 </suite> 
