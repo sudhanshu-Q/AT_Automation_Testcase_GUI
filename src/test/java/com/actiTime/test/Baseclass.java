@@ -12,6 +12,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestListener;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -40,12 +42,15 @@ public class Baseclass
 		// {
 		// ChromeDriver driver;
 		//WebDriverManager.chromedriver().setup();
-//		
+		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
+		//FirefoxOptions options=new FirefoxOptions();
+		//options.addArguments("--headless");
+		WebDriver driver=new FirefoxDriver();
 //		ChromeOptions chromeOptions= new ChromeOptions();
 	//chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+	//	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		//  "./Drivers/chromedriver.exe"
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());
 		log.debug(readconfig.getUrl());
