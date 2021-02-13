@@ -41,11 +41,11 @@ public class Baseclass
 		// ChromeDriver driver;
 		//WebDriverManager.chromedriver().setup();
 //		
-//		ChromeOptions chromeOptions= new ChromeOptions();
-//		chromeOptions.setBinary("D:\\AT_channel\\ActiTime_Automation\\Drivers\\chromedriver.exe");
+		ChromeOptions chromeOptions= new ChromeOptions();
+	chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(chromeOptions);
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());
 		log.debug(readconfig.getUrl());
