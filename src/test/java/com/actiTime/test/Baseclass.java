@@ -1,6 +1,7 @@
 package com.actiTime.test;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -29,7 +30,7 @@ public class Baseclass
 {
 	final static Logger log = Logger.getLogger(Baseclass.class);
 
-	public WebDriver driver;
+	static WebDriver driver;
 	ReadDataConfiguration readconfig = new ReadDataConfiguration();
 
 	@Parameters("browser")
@@ -55,11 +56,10 @@ public class Baseclass
 			log.debug("Url accessed");
 			driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		} 
-		else if (br.equals("Firefox")) {
+		} else if (br.equals("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 			// WebDriverManager.firefoxdriver().setup();
-			driver=new FirefoxDriver();
+			driver = new FirefoxDriver();
 			log.debug("Launching Browser :" + driver.getClass());
 			log.info(driver.getClass());
 			log.debug(readconfig.getUrl());
@@ -73,42 +73,44 @@ public class Baseclass
 		}
 	}
 
-	public void takeScreebshot(String testName) {
+	public void takeScreebshot(String testName) throws IOException {
 		log.info("Taking Screenshot");
-		try {
-			log.debug("Taking screenshot " + driver.getTitle());
+		// try {
+		log.debug("Taking screenshot " + driver.getTitle());
+		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		log.info("File location for capturing screenshots : " + file);
+		log.debug("Preparing Screenshot for :" + testName.toString());
+		File destFile = new File("./Screenshots/testName" + testName + ".png");
+		log.info("Loctiopn of Screenshot captured: " + destFile);
+		FileUtils.copyFile(file, destFile);
+		log.debug("Screenshot taken :" + testName.toString());
+		log.info("File source for screenshot captured: " + destFile.getName());
 
-			File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			log.debug("preparing Screenshot for :" + testName.toString());
-			File destFile = new File("./Screenshots/testfail" + testName + ".png");
-			FileUtils.copyFile(file, destFile);
-			log.debug("Screenshot taken :" + testName.toString());
-			log.info("File source for screenshot captured: " + destFile.getName());
+		// System.out.println("Driver taking screenshot");
+		// File source = screenshots.;
 
-			// System.out.println("Driver taking screenshot");
-			// File source = screenshots.;
-			// System.out.println(source);
-			// System.out.println("Taking screenshot for failed Test case");
-			// // String filePath="D:\\GitLocalRepo\\ActiTime_Automation\\Screenshots\\";
-			// String filePath = "./Screenshots/testfail:";
-			// System.out.println("Screenhots taken");
-			// new File(filePath);
-			// System.out.println("Test case faile in: " + testName);
-			// FileUtils.copyFile(source, new File("./Screenshots/testfail:" + testName +
-			// ".png"));
-			// System.out.println("Screenshots moved to screenshot folder");
+		// System.out.println(source);
+		// System.out.println("Taking screenshot for failed Test case");
+		// // String filePath="D:\\GitLocalRepo\\ActiTime_Automation\\Screenshots\\";
+		// String filePath = "./Screenshots/testfail:";
+		// System.out.println("Screenhots taken");
+		// new File(filePath);
+		// System.out.println("Test case faile in: " + testName);
+		// FileUtils.copyFile(source, new File("./Screenshots/testfail:" + testName +
+		// ".png"));
+		// System.out.println("Screenshots moved to screenshot folder");
 
-		} catch (Exception e) {
-			log.error("Screenshot not taken :" + e.getMessage());
-		}
+		// } catch (Exception e) {
+		// log.error("Screenshot not taken :" + e.getMessage());
+		// }
 
 	}
 
 	@AfterClass
 	public void shutDown() {
 		log.debug("Execution completed :");
-		driver.quit();
-		log.info("Quit browser :" + driver.getClass());
+		driver.close();
+		log.info("Quit browser :");
 
 	}
 
