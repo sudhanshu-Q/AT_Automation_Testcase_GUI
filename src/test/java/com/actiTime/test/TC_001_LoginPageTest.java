@@ -38,7 +38,7 @@ public class TC_001_LoginPageTest extends Baseclass
 		log.info("Title of page :"+TitlePrelogin);
 		SoftAssert titleVerify=new SoftAssert();
 		titleVerify.assertEquals(TitlePrelogin,"actiTIME - Login");
-
+		titleVerify.assertAll();
 		log.debug("Enter the username :"+readconfig.getUsername().toString());
 		log.info(readconfig.getUsername().toString()+": source :"+ readconfig.toString());
 		initLogin.setUserName();
@@ -49,6 +49,18 @@ public class TC_001_LoginPageTest extends Baseclass
 		log.info("Clicked on SignIn Button "+driver.getTitle());
 		log.info("wait load");
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
+
+	}
+		@Test(dependsOnMethods="loginTest")
+		@Description("Verfiy login user")
+		@Epic("AT:001_verfiy if user is logged in or not")
+		@Feature("Feature: Login feature")
+		@Story("Login Test:001")
+		@Step("Verify login test")
+		@Severity(SeverityLevel.MINOR)
+	public void loginTestVerify()
+		{
+	
 		String preLogTitle=readconfig.preLoginTitle();
 		log.debug("Tilte of page :"+preLogTitle);
 		String postLogTitle=readconfig.postLoginTitle();
@@ -82,8 +94,8 @@ catch (InterruptedException e)
 	log.error(e.getMessage());
 	e.printStackTrace();
 }
-		titleVerify.assertAll();
+	
 		log.info("Login test completed :"+driver.getTitle());
-
+		}
 	}
-}
+

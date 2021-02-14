@@ -43,10 +43,10 @@ public class TC_002_CreateNewTask extends Baseclass {
 		logger.debug("new window open :" + driver.getTitle());
 		logger.debug("Accessed url :" + driver.getCurrentUrl());
 		createTask.clickCreateNewTaskLink();
-		logger.debug("action to create new task lin :" + driver.getTitle());
+		logger.debug("Action to create new task link :" + driver.getTitle());
 		// Filling create new customer form
 		createTask.selectCreateNewTaskDropDown();
-		logger.debug("select create new task." + driver.getTitle());
+		logger.debug("Select create new task." + driver.getTitle());
 		createTask.customerNameEnter();
 		logger.debug("Customer name ");
 		createTask.projectNameEnter();
