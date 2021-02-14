@@ -1,5 +1,7 @@
 package com.actiTime.Utilities;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -22,33 +24,57 @@ public class ListenerTest extends Baseclass implements ITestListener {
 		log.debug("On test success :" + result.getMethod().getMethodName());
 		log.info("Test success");
 	}
-@Attachment
-	public void onTestFailure(ITestResult result) {
-		log.debug("Failure to load " + result.getMethod());
-		takeScreebshot(result.getMethod().getMethodName());
-		log.debug("***** Error" + result.getTestName().toString() + "********test  failed *******");
-
-	}
+//@Attachment
+//	public void onTestFailure(ITestResult result) {
+//		log.debug("Failure to load " + result.getMethod());
+//		try {
+//			takeScreebshot(result.getMethod().getMethodName());
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		log.debug("***** Error" + result.getTestName().toString() + "********test  failed *******");
+//
+//	}
 
 	public void onTestSkipped(ITestResult result) {
 
-		// TODO Auto-generated method stub
+		log.info("Skipped testcase :"+result.SKIP);
 
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
+
+		log.info("Percentage of success :"+result.SUCCESS_PERCENTAGE_FAILURE);
 
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+	
+		log.info("On start of test"+context.getAllTestMethods());
 
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+
+		log.info("Tests are on finish :"+context.getOutputDirectory());
 
 	}
 
+	//@Override
+	public void onTestFailure(ITestResult result) {
+		
+		log.info("Failure tests are :"+result.FAILURE);
+		log.debug("Failure to load :" + result.getMethod());
+		// System.out.println("***** Error "+result.getName()+" test has failed *****");
+		try {
+			takeScreebshot(result.getMethod().getMethodName());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			log.error(e);
+		}
+		log.debug("***** Error" + "********test  failed *******");
+
+}
 }
