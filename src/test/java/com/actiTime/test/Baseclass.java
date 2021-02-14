@@ -39,6 +39,7 @@ public class Baseclass
 		if (br.equals("Chrome")) {
 			// ChromeDriver driver;
 			// WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			// ChromeOptions chromeOptions= new ChromeOptions();
 			// chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
