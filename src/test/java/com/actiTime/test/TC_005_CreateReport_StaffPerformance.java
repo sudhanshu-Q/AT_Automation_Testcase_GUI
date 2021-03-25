@@ -29,7 +29,7 @@ public class TC_005_CreateReport_StaffPerformance extends Baseclass{
 	@Feature("Feature: Create Report ")
 	@Story("Create Report for staff performance : 005")
 	@Step("TO create report for staff performance")
-	@Severity(SeverityLevel.CRITICAL)
+	
 	public void createReport_Staff_performance() {
 		
 		TC_001_LoginPageTest loginTestUser=new TC_001_LoginPageTest();
