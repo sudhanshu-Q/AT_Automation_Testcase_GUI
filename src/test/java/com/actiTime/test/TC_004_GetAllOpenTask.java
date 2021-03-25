@@ -35,15 +35,9 @@ public class TC_004_GetAllOpenTask extends Baseclass {
 	@Step("To display all task created")
 	@Severity(SeverityLevel.MINOR)
 	public void getAllTaskCreated() {
-		LoginPage lp = new LoginPage(driver);
-		log.debug("Access url :" + driver.getCurrentUrl());
-		lp.setUserName();
-		log.debug("Set user name :" + driver.getTitle());
-		lp.setPassword();
-		log.debug("Set password :" + driver.getTitle());
-		lp.clickSignInBTN();
-		log.info("user is signing in :" + driver.getTitle());
-		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+
+		TC_001_LoginPageTest loginTestUser=new TC_001_LoginPageTest();
+		loginTestUser.loginTest();
 
 		// Get all Task
 		GetAllOpenTask gettask = new GetAllOpenTask(driver);

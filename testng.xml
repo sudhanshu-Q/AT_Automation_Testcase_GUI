@@ -5,8 +5,8 @@
 		<listener class-name="com.actiTime.Utilities.ListenerTest">
 		</listener>
 	</listeners>
-	<test name="Smoke_Firefox">
-		<parameter name="browser" value="Firefox">
+	<test name="Chrome browser Sanity">
+		<parameter name="browser" value="Chrome">
 		</parameter>
 		<classes>
 			<!-- <class name="com.actiTime.test.TC_001_LoginPageTest" /> -->
@@ -19,6 +19,21 @@
 			<class name="com.actiTime.test.TC_002_CreateNewTask" />
 			<class name="com.actiTime.test.TC_003_CreateNewUser" />
 			<class name="com.actiTime.test.TC_004_GetAllOpenTask" />
+			<class
+				name="com.actiTime.test.TC_005_CreateReport_StaffPerformance" />
+		</classes>
+	</test>
+	<test name="FireFox browser Sanity">
+		<parameter name="browser" value="Firefox">
+		</parameter>
+		<classes>
+			<class name="com.actiTime.test.TC_001_LoginPageTest" />
+			<class name="com.actiTime.test.TC_001_LogoutTest" />
+			<class name="com.actiTime.test.TC_002_CreateNewTask" />
+			<class name="com.actiTime.test.TC_003_CreateNewUser" />
+			<class name="com.actiTime.test.TC_004_GetAllOpenTask" />
+			<class
+				name="com.actiTime.test.TC_005_CreateReport_StaffPerformance" />
 		</classes>
 	</test>
 </suite> 

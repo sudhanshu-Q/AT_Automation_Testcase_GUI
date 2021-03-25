@@ -30,48 +30,53 @@ public class Baseclass
 {
 	final static Logger log = Logger.getLogger(Baseclass.class);
 
+	//static WebDriver driver;                                           //without Webdrivermanager
 	static WebDriver driver;
 	ReadDataConfiguration readconfig = new ReadDataConfiguration();
 
-	@Parameters("browser")
+	@Parameters("browser")                                             //without Webdrivermanager
 	@BeforeClass
-	public void setUp(String br) {
-		// public void setUp() {
-		if (br.equals("Chrome")) {
-			// ChromeDriver driver;
-			// WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-			driver = new ChromeDriver();
-			// ChromeOptions chromeOptions= new ChromeOptions();
-			// chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-			// System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-			// "./Drivers/chromedriver.exe"
-			log.debug("Launching Browser :" + driver.getClass());
-			log.info(driver.getClass());
-			log.debug(readconfig.getUrl());
-			driver.get(readconfig.getUrl());
-			driver.manage().window().maximize();
-			log.info("Maximizing window size :" + driver.manage().window().getSize());
-			log.info("Url accessed :" + driver.getCurrentUrl());
-			log.debug("Url accessed");
-			driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		} else if (br.equals("Firefox")) {
-			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
-			// WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-			log.debug("Launching Browser :" + driver.getClass());
-			log.info(driver.getClass());
-			log.debug(readconfig.getUrl());
-			driver.get(readconfig.getUrl());
-			driver.manage().window().maximize();
-			log.info("Maximizing window size :" + driver.manage().window().getSize());
-			log.info("Url accessed :" + driver.getCurrentUrl());
-			log.debug("Url accessed");
-			driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+	public void setUp(String br) {                                     //without Webdrivermanager
+		//public void setUp() {                                     
+		if (br.equals("Chrome")) {                                     //without Webdrivermanager
+
+			WebDriverManager.chromedriver().setup();
+			//	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");//without Webdrivermanager
+			driver = new ChromeDriver();                              //without Webdrivermanager
 		}
+		else if (br.equals("Firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
+		// ChromeOptions chromeOptions= new ChromeOptions();
+		// chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+		// System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		// "./Drivers/chromedriver.exe"
+		log.debug("Launching Browser :" + driver.getClass());
+		log.info(driver.getClass());
+		log.debug(readconfig.getUrl());
+		driver.get(readconfig.getUrl());
+		driver.manage().window().maximize();
+		log.info("Maximizing window size :" + driver.manage().window().getSize());
+		log.info("Url accessed :" + driver.getCurrentUrl());
+		log.debug("Url accessed");
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		//} else if (br.equals("Firefox")) {                               //without Webdrivermanager
+		//System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe"); //without Webdrivermanager
+
+		log.debug("Launching Browser :" + driver.getClass());
+		log.info(driver.getClass());
+		log.debug(readconfig.getUrl());
+		driver.get(readconfig.getUrl());
+		driver.manage().window().maximize();
+		log.info("Maximizing window size :" + driver.manage().window().getSize());
+		log.info("Url accessed :" + driver.getCurrentUrl());
+		log.debug("Url accessed");
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 	}
+	//}
 
 	public void takeScreebshot(String testName) throws IOException {
 		log.info("Taking Screenshot");
