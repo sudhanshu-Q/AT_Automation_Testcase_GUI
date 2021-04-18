@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Test Suite]">
-  <parameter name="browser" value="Firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <parameter name="browser" value="Chrome"/>
   <listeners>
     <listener class-name="com.actiTime.Utilities.ListenerTest"/>
   </listeners>
-  <test name="Smoke">
-    <parameter name="browser" value="Firefox"/>
+  <test name="Chrome browser Sanity">
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.actiTime.test.TC_001_LoginPageTest"/>
-      <class name="com.actiTime.test.TC_002_CreateNewTask"/>
+      <class name="com.actiTime.test.TC_004_GetAllOpenTask"/>
     </classes>
-  </test> <!-- Smoke -->
+  </test> <!-- Chrome browser Sanity -->
 </suite> <!-- Failed suite [Test Suite] -->

@@ -15,6 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.ITestListener;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -32,6 +33,7 @@ public class Baseclass
 
 	//static WebDriver driver;                                           //without Webdrivermanager
 	static WebDriver driver;
+	//	static HtmlUnitDriver htmlDriver;
 	ReadDataConfiguration readconfig = new ReadDataConfiguration();
 
 	@Parameters("browser")                                             //without Webdrivermanager
@@ -42,16 +44,19 @@ public class Baseclass
 
 			WebDriverManager.chromedriver().setup();
 			//	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");//without Webdrivermanager
-			driver = new ChromeDriver();                              //without Webdrivermanager
+
+			//without Webdrivermanager
+			ChromeOptions option=new ChromeOptions();
+			option.setHeadless(true);
+			option.addArguments("--headless");
+			driver = new ChromeDriver(option); 
+
 		}
 		else if (br.equals("Firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
-		// ChromeOptions chromeOptions= new ChromeOptions();
-		// chromeOptions.setBinary("C:\\Users\\Shudhanshu\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-		// System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-		// "./Drivers/chromedriver.exe"
+
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());
 		log.debug(readconfig.getUrl());
@@ -64,7 +69,6 @@ public class Baseclass
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		//} else if (br.equals("Firefox")) {                               //without Webdrivermanager
 		//System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe"); //without Webdrivermanager
-
 		log.debug("Launching Browser :" + driver.getClass());
 		log.info(driver.getClass());
 		log.debug(readconfig.getUrl());
@@ -76,7 +80,6 @@ public class Baseclass
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 	}
-	//}
 
 	public void takeScreebshot(String testName) throws IOException {
 		log.info("Taking Screenshot");
