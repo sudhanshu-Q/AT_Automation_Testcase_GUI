@@ -20,12 +20,16 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
-
+/**
+ * 
+ * @author sudhanshu
+ *
+ */
 public class TC_004_GetAllOpenTask extends Baseclass {
 
 	public static Logger log = Logger.getLogger(TC_004_GetAllOpenTask.class);
 	ReadDataConfiguration read = new ReadDataConfiguration();
-	
+
 
 	@Test
 	@Description("Get list oof all open Task")
@@ -48,12 +52,18 @@ public class TC_004_GetAllOpenTask extends Baseclass {
 		log.debug("Enter the task name");
 		gettask.clickFilterTaskBTN();
 		log.debug("Filetring the task");
-//	log.info(gettask.taskListWebTable().toString());
-//	log.info("getting xpath for table column");
-//	log.info(gettask.setstringToXpath());
-//	log.info("taking xpath");
+		//	log.info(gettask.taskListWebTable().toString());
+		//	log.info("getting xpath for table column");
+		//	log.info(gettask.setstringToXpath());
+		//	log.info("taking xpath");
+		log.debug("Navigating to form table");
+		//gettask.navigateToFormWebTable();
+		log.debug("getting customer column");
+		//gettask.getCustomerColumn();
+		log.debug("Column data fetched Successfully");
+		//gettask.getAllCustomerDetail();
+	//	gettask.getCustomerCreated();
+		gettask.readTableHeader();
 
-		
-		//Need to complete Web table
 	}
 }

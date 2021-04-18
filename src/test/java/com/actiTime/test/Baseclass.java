@@ -91,30 +91,12 @@ public class Baseclass
 		log.debug("Screenshot taken :" + testName.toString());
 		log.info("File source for screenshot captured: " + destFile.getName());
 
-		// System.out.println("Driver taking screenshot");
-		// File source = screenshots.;
-
-		// System.out.println(source);
-		// System.out.println("Taking screenshot for failed Test case");
-		// // String filePath="D:\\GitLocalRepo\\ActiTime_Automation\\Screenshots\\";
-		// String filePath = "./Screenshots/testfail:";
-		// System.out.println("Screenhots taken");
-		// new File(filePath);
-		// System.out.println("Test case faile in: " + testName);
-		// FileUtils.copyFile(source, new File("./Screenshots/testfail:" + testName +
-		// ".png"));
-		// System.out.println("Screenshots moved to screenshot folder");
-
-		// } catch (Exception e) {
-		// log.error("Screenshot not taken :" + e.getMessage());
-		// }
-
 	}
 
 	@AfterClass
 	public void shutDown() {
 		log.debug("Execution completed :");
-		driver.close();
+		//driver.close();
 		log.info("Quit browser :");
 
 	}

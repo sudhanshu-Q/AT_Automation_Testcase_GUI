@@ -1,0 +1,100 @@
+2021-04-18 23:44:39,796  INFO [main] ListenerTest:54 - On start of test[Lorg.testng.ITestNGMethod;@45018215
+2021-04-18 23:45:03,401 DEBUG [main] Baseclass:55 - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-04-18 23:45:03,401  INFO [main] Baseclass:56 - class org.openqa.selenium.chrome.ChromeDriver
+2021-04-18 23:45:03,408 DEBUG [main] Baseclass:57 - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-04-18 23:45:10,725  INFO [main] Baseclass:60 - Maximizing window size :(1382, 744)
+2021-04-18 23:45:10,728  INFO [main] Baseclass:61 - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-04-18 23:45:10,728 DEBUG [main] Baseclass:62 - Url accessed
+2021-04-18 23:45:10,759 DEBUG [main] Baseclass:68 - Launching Browser :class org.openqa.selenium.chrome.ChromeDriver
+2021-04-18 23:45:10,759  INFO [main] Baseclass:69 - class org.openqa.selenium.chrome.ChromeDriver
+2021-04-18 23:45:10,759 DEBUG [main] Baseclass:70 - http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-04-18 23:45:12,728  INFO [main] Baseclass:73 - Maximizing window size :(1382, 744)
+2021-04-18 23:45:12,734  INFO [main] Baseclass:74 - Url accessed :http://127.0.0.1/login.do;jsessionid=2g03nn89d6hvq
+2021-04-18 23:45:12,735 DEBUG [main] Baseclass:75 - Url accessed
+2021-04-18 23:45:15,367 DEBUG [main] ListenerTest:18 - Test started :com.actiTime.test.TC_004_GetAllOpenTask
+2021-04-18 23:45:15,376  INFO [main] ListenerTest:19 - Calling Listener Test class
+2021-04-18 23:45:15,549 DEBUG [main] TC_001_LoginPageTest:34 - Login Test execution: [Ljava.lang.reflect.Method;@5b04476e
+2021-04-18 23:45:15,721  INFO [main] TC_001_LoginPageTest:38 - Title of page :actiTIME - Login
+2021-04-18 23:45:15,768 DEBUG [main] TC_001_LoginPageTest:42 - Enter the username :admin
+2021-04-18 23:45:15,768  INFO [main] TC_001_LoginPageTest:43 - admin: source :com.actiTime.Utilities.ReadDataConfiguration@40258c2f
+2021-04-18 23:45:16,235  INFO [main] TC_001_LoginPageTest:45 - Enter the password 
+2021-04-18 23:45:16,611 DEBUG [main] TC_001_LoginPageTest:47 - Click on SignIn Button
+2021-04-18 23:45:33,691  INFO [main] TC_001_LoginPageTest:49 - Clicked on SignIn Button actiTIME - Login
+2021-04-18 23:45:33,692  INFO [main] TC_001_LoginPageTest:50 - wait load
+2021-04-18 23:45:33,743 DEBUG [main] TC_004_GetAllOpenTask:48 - Accessing open task link
+2021-04-18 23:45:33,743 DEBUG [main] GetAllOpenTask:75 - Click on Open task
+2021-04-18 23:45:38,139 DEBUG [main] GetAllOpenTask:77 - User clicked on open task
+2021-04-18 23:45:38,139 DEBUG [main] TC_004_GetAllOpenTask:50 - Clicked on open task button
+2021-04-18 23:45:38,140 DEBUG [main] GetAllOpenTask:81 - Entering the Task name :task1
+2021-04-18 23:45:38,351 DEBUG [main] GetAllOpenTask:83 - Entered task name
+2021-04-18 23:45:38,351 DEBUG [main] TC_004_GetAllOpenTask:52 - Enter the task name
+2021-04-18 23:45:38,383 DEBUG [main] GetAllOpenTask:87 - Action filter
+2021-04-18 23:45:39,723 DEBUG [main] GetAllOpenTask:89 - Clicked on Filter task button
+2021-04-18 23:45:39,723 DEBUG [main] TC_004_GetAllOpenTask:54 - Filetring the task
+2021-04-18 23:45:39,724 DEBUG [main] TC_004_GetAllOpenTask:59 - Navigating to form table
+2021-04-18 23:45:39,724 DEBUG [main] TC_004_GetAllOpenTask:61 - getting customer column
+2021-04-18 23:45:39,724 DEBUG [main] TC_004_GetAllOpenTask:63 - Column data fetched Successfully
+2021-04-18 23:45:40,874 DEBUG [main] GetAllOpenTask:106 - Table Headers :7
+2021-04-18 23:45:41,235 DEBUG [main] GetAllOpenTask:115 - ROW size :54
+2021-04-18 23:45:41,235 DEBUG [main] GetAllOpenTask:123 - ROWS :[[[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']], [[[[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]]
+2021-04-18 23:45:41,235  INFO [main] GetAllOpenTask:136 - Table header :1:Customer
+2021-04-18 23:45:42,374 DEBUG [main] GetAllOpenTask:139 - Created Sheet :Customer
+2021-04-18 23:45:42,474 DEBUG [main] GetAllOpenTask:141 - Creating sheet name:Customer
+2021-04-18 23:45:42,515 DEBUG [main] GetAllOpenTask:143 - Creating rows for [[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]
+2021-04-18 23:45:42,516 DEBUG [main] GetAllOpenTask:146 - Customer header created in excel :Customer
+2021-04-18 23:45:43,080  INFO [main] GetAllOpenTask:173 - Table header :2:Project
+2021-04-18 23:45:43,080  INFO [main] GetAllOpenTask:176 - Sheet Name :Project
+2021-04-18 23:45:43,080 DEBUG [main] GetAllOpenTask:177 - Created Sheet :Project
+2021-04-18 23:45:43,080 DEBUG [main] GetAllOpenTask:179 - Creating sheet name:Project
+2021-04-18 23:45:43,080 DEBUG [main] GetAllOpenTask:181 - Creating rows for [[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]
+2021-04-18 23:45:43,080 DEBUG [main] GetAllOpenTask:184 - Project header created in excel :Project
+2021-04-18 23:45:43,095  INFO [main] GetAllOpenTask:202 - Table header :3:Task
+2021-04-18 23:45:43,095  INFO [main] GetAllOpenTask:205 - Sheet Name :Task
+2021-04-18 23:45:43,095 DEBUG [main] GetAllOpenTask:206 - Created Sheet :Task
+2021-04-18 23:45:43,095 DEBUG [main] GetAllOpenTask:208 - Creating sheet name:Task
+2021-04-18 23:45:43,120 DEBUG [main] GetAllOpenTask:210 - Creating rows for [[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]
+2021-04-18 23:45:43,120 DEBUG [main] GetAllOpenTask:213 - Project header created in excel :Task
+2021-04-18 23:45:43,120  INFO [main] GetAllOpenTask:232 - Table header :4:Deadline
+2021-04-18 23:45:43,136  INFO [main] GetAllOpenTask:233 - Table header :4:Deadline
+2021-04-18 23:45:43,136  INFO [main] GetAllOpenTask:236 - Sheet Name :Deadline
+2021-04-18 23:45:43,136 DEBUG [main] GetAllOpenTask:237 - Created Sheet :Deadline
+2021-04-18 23:45:43,136 DEBUG [main] GetAllOpenTask:239 - Creating sheet name:Deadline
+2021-04-18 23:45:43,152 DEBUG [main] GetAllOpenTask:241 - Creating rows for [[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]
+2021-04-18 23:45:43,152 DEBUG [main] GetAllOpenTask:244 - Project header created in excel :Deadline
+2021-04-18 23:45:43,152  INFO [main] GetAllOpenTask:263 - Table header :5:Last
+Tracking
+Date
+2021-04-18 23:45:43,152  INFO [main] GetAllOpenTask:264 - Table header :5:Last
+Tracking
+Date
+2021-04-18 23:45:43,152  INFO [main] GetAllOpenTask:267 - Sheet Name :Last
+Tracking
+Date
+2021-04-18 23:45:43,152 DEBUG [main] GetAllOpenTask:268 - Created Sheet :Last
+Tracking
+Date
+2021-04-18 23:45:43,152 DEBUG [main] GetAllOpenTask:270 - Creating sheet name:Last
+Tracking
+Date
+2021-04-18 23:45:43,167 DEBUG [main] GetAllOpenTask:272 - Creating rows for [[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]
+2021-04-18 23:45:43,167 DEBUG [main] GetAllOpenTask:275 - Project header created in excel :Last
+Tracking
+Date
+2021-04-18 23:45:43,167  INFO [main] GetAllOpenTask:294 - Table header :6:Spent
+Time
+2021-04-18 23:45:43,167  INFO [main] GetAllOpenTask:295 - Table header :6:Spent
+Time
+2021-04-18 23:45:43,167  INFO [main] GetAllOpenTask:298 - Sheet Name :Spent
+Time
+2021-04-18 23:45:43,167 DEBUG [main] GetAllOpenTask:299 - Created Sheet :Spent
+Time
+2021-04-18 23:45:43,167 DEBUG [main] GetAllOpenTask:301 - Creating sheet name:Spent
+Time
+2021-04-18 23:45:43,183 DEBUG [main] GetAllOpenTask:303 - Creating rows for [[ChromeDriver: chrome on WINDOWS (1dcf56a22fd48f97e2d814977e3cffdb)] -> xpath: //td[@class='listtblcell']/self::td[@class='listtblcell']]
+2021-04-18 23:45:43,183 DEBUG [main] GetAllOpenTask:306 - Project header created in excel :Spent
+Time
+2021-04-18 23:45:43,839 DEBUG [main] ListenerTest:24 - On test success :getAllTaskCreated
+2021-04-18 23:45:43,853  INFO [main] ListenerTest:25 - Test success
+2021-04-18 23:45:43,854 DEBUG [main] Baseclass:98 - Execution completed :
+2021-04-18 23:45:43,854  INFO [main] Baseclass:100 - Quit browser :
+2021-04-18 23:45:44,104  INFO [main] ListenerTest:60 - Tests are on finish :D:\AT_channel\ActiTime_Automation\test-output\Test Suite

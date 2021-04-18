@@ -66,7 +66,6 @@ public class ListenerTest extends Baseclass implements ITestListener {
 		
 		log.info("Failure tests are :"+result.FAILURE);
 		log.debug("Failure to load :" + result.getMethod());
-		// System.out.println("***** Error "+result.getName()+" test has failed *****");
 		try {
 			takeScreebshot(result.getMethod().getMethodName());
 		} catch (IOException e) {
